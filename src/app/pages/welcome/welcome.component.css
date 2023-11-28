@@ -1,0 +1,25 @@
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    display: flexbox;
+    float:inline-start;
+    position: inherit;
+    
+
+    margin: 5px;
+    gap: 5px;
+    background-color: blueviolet;
+    width:20rem;
+    }
+
+p{
+    display: flexbox;
+    justify-content: wrap;
+    justify-self: center;
+    align-self: center;
+    height:200px;
+    width: 200px;
+}
