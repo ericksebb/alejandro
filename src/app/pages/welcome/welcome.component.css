@@ -2,23 +2,21 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    justify-content:space-evenly; 
     border-radius: 5px;
 }
 
 .container{
-    background-color: cadetblue;
+    background-color: rgb(87, 182, 185);
     width: 350px;
     height: 30px;
     margin: 10px;
     border: 1px;
     border-style: solid;
     border-radius: 5px;
-    border-color: black;
-    box-shadow: 10px;
+    border-color: gray;
     text-align: center;
     font-size: large;
-    
 }
 
 p{
