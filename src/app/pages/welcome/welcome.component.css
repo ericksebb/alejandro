@@ -1,25 +1,26 @@
-header{
-    justify-content: space-between;
-    align-items: center;
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-radius: 5px;
 }
 
-section{
-    display: flexbox;
-    float:inline-start;
-    position: inherit;
+.container{
+    background-color: cadetblue;
+    width: 350px;
+    height: 30px;
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 10px;
+    text-align: center;
+    font-size: large;
     
-
-    margin: 5px;
-    gap: 5px;
-    background-color: blueviolet;
-    width:20rem;
-    }
+}
 
 p{
-    display: flexbox;
-    justify-content: wrap;
-    justify-self: center;
-    align-self: center;
-    height:200px;
-    width: 200px;
+    color:black;
 }
